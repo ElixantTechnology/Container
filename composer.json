@@ -1,0 +1,28 @@
+{
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "name": "elixant-technology/container",
+  "description": "IoC Dependency Injection Container based off the one provided by Laravel.",
+  "keywords": ["elixant", "ioc", "container", "dependency", "injection", "platform"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Alexander M. Schmautz",
+	  "email": "president@elixant-technology.com",
+	  "homepage": "https://elixant-technology.com"
+	}
+  ],
+  "require": {
+	"php": "^7.4|^8.0",
+	"psr/container": "^1.0"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Elixant\\Components\\": "src/Components"
+	}
+  },
+  "config": {
+	"optimize-autoloader": true
+  }
+}
