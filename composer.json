@@ -19,7 +19,7 @@
   },
   "autoload": {
 	"psr-4": {
-	  "Elixant\\Components\\": "src/Components"
+	  "Elixant\\Components\\Container\\": "src/"
 	}
   },
   "config": {
